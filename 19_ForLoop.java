@@ -10,9 +10,11 @@ public class MyClass {
       System.out.println("Numero di partenza: " + numMax + ", Quanti numeri precedenti visualizzati: "+ howManyNum);
       reverse(numMax, howManyNum);
     }
-    
+
+//modificato condizione nel ciclo for, ora stampa a video solamente i numeri naturali.
+
     public static void reverse(int a, int b) {
-        for (int i=a; i > a-b; i--) {
+        for (int i=a; i >=0 ; i--) {
             System.out.println(i);
         }
     }
